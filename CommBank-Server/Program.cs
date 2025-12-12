@@ -1,5 +1,6 @@
 ﻿using CommBank.Models;
 using CommBank.Services;
+using CommBank.Data;
 using MongoDB.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -48,6 +49,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+await SeedData.InitializeAsync(mongoDatabase);
 
 app.Run();
 
