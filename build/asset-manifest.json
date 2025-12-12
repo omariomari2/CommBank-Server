@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82e4c018.css",
+    "main.js": "/static/js/main.5d966e7e.js",
+    "static/media/tag.png": "/static/media/tag.e0821dbfbdf960070150.png",
+    "static/media/commbank_card.svg": "/static/media/commbank_card.a11bfa1c4c736fc99cf5013674f5b7b6.svg",
+    "static/media/commbank.svg": "/static/media/commbank.0f90928c251469ce36be3a58a687b3ab.svg",
+    "index.html": "/index.html",
+    "main.82e4c018.css.map": "/static/css/main.82e4c018.css.map",
+    "main.5d966e7e.js.map": "/static/js/main.5d966e7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e4c018.css",
+    "static/js/main.5d966e7e.js"
+  ]
+}
