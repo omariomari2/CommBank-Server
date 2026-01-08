@@ -9,6 +9,8 @@ interface ILoginInput
 
 public class LoginInput : ILoginInput
 {
+    public LoginInput() { }
+
     public LoginInput(string email, string password)
     {
         Email = email;
